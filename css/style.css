@@ -11,3 +11,7 @@
     transition: .25s;
     margin-bottom: 24px;
 }
+
+.size-96 {
+    font-size: 96px;
+}
