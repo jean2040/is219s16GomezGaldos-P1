@@ -1,0 +1,13 @@
+.service {
+    background: #fff;
+    text-align: center;
+    padding: 48px 0;
+    color: #232323;
+    box-shadow: 0 2px 6px rgba(0,0,0,.2);
+    -webkit-transition: .25s;
+    -moz-transition: .25s;
+    -o-transition: .25s;
+    -ms-transition: .25s;
+    transition: .25s;
+    margin-bottom: 24px;
+}
