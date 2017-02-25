@@ -116,14 +116,14 @@
 }
 .education-block .icon {
 	display: block;
-	width: 78px;
-	height: 78px;
+	width: 80px;
+	height: 80px;
 	line-height: 78px;
 	text-align: center;
 	background: #fff;
 	border: 5px solid #e5e5e5;
 	border-radius: 100%;
-	font-size: 36px;
+	font-size: 50px;
 	color: #000;
 	position: absolute;
 	top: 0;
@@ -131,15 +131,7 @@
 	margin-left: -39px;
 	z-index: 2;
 }
-.education-block .line {
-	display: block;
-	height: 100%;
-	width: 2px;
-	border-left: 2px dashed #4d4d4d;
-	position: absolute;
-	top: 0;
-	left: 30%;
-}
+
 .education-block .meta {
 	width: 20%;
 	box-shadow: 0 2px 4px rgba(0,0,0,.2);
@@ -147,17 +139,7 @@
 	float: left;
 	margin-top: 39px;
 }
-.education-block .meta:after {
-	content: '';
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 13px 10px 0 0;
-	border-color: blue transparent transparent transparent;
-	position: absolute;
-	top: 0;
-	right: -10px;
-}
+
 .education-block .meta .year {
 	display: block;
 	background: blue;
@@ -171,7 +153,7 @@
 .education-block .meta .company {
 	display: block;
 	background: #fff;
-	color: #232323;
+	color: black;
 	text-align: center;
 	font-size: 15px;
 	line-height: 50px;
@@ -180,7 +162,7 @@
 }
 .education-block .content {
 	width: 60%;
-	box-shadow: 0 2px 4px rgba(0,0,0,.2);
+	box-shadow: 0 2px 4px black;
 	background: #fff;
 	position: relative;
 	padding: 20px 30px;
@@ -188,20 +170,8 @@
 	margin-top: 39px;
     color: black;
 }
-.education-block .content:after {
-	content: '';
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 0 10px 13px 0;
-	border-color: transparent #fff transparent transparent;
-	position: absolute;
-	top: 0;
-	left: -10px;
-}
-.education-block .content h5 {
-	margin-bottom: 6px;
-}
+
+
 .education-block .content p:last-of-type {
 	margin-bottom: 0;
 }
@@ -218,21 +188,11 @@
 		float: right;
 		margin-top: 12px;
 	}
-	.education-block .meta:after {
-		border-width: 0 10px 13px 0;
-		border-color: transparent #7c4dff transparent transparent;
-		right: auto;
-		left: -10px;
-	}
+	
 	.education-block .content {
 		margin-top: 12px;
 		width: 80%;
 		padding: 10px 20px;
 	}
-	.education-block .content:after {
-		border-width: 10px 0 0 13px;
-		border-color: transparent transparent transparent #fff;
-		top: -10px;
-		left: 0;
-	}
+	
 
