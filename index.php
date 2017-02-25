@@ -1,3 +1,8 @@
+<?php
+  header( 'Location: index.html' );
+  die();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
